@@ -18,7 +18,7 @@ create_tables()
 # ------------------------------
 # Sidebar
 # ------------------------------
-st.sidebar.image("assets/logo.png", width=120)
+
 st.sidebar.title("💰 RONI Salary Tracker")
 st.sidebar.caption("Monthly Expense Manager")
 
