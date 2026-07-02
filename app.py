@@ -1,5 +1,13 @@
 import streamlit as st
 from database import create_tables
+import os
+
+logo_path = "assets/logo.png"
+
+if os.path.exists(logo_path):
+    st.sidebar.image(logo_path, width=150)
+else:
+    st.sidebar.warning("Logo not found.")
 
 # ------------------------------
 # Page Config
