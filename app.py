@@ -5,7 +5,7 @@ import os
 logo_path = "assets/logo.png"
 
 if os.path.exists(logo_path):
-    st.sidebar.image(logo_path, width=150)
+    st.sidebar.image(logo_path, width=120)
 else:
     st.sidebar.warning("Logo not found.")
 
